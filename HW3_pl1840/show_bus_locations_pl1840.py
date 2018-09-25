@@ -23,6 +23,6 @@ print ("Number of Active Buses:%s"%(bus))
 for n in range(bus):
 	latitude=data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][n]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
 	longitude=data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][n]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
-	print ("Bus %s is at latitude %s and longitude %s" %(n+1, latitude, longitude))
+	print ("Bus %s is at latitude %s and longitude %s" %(n, latitude, longitude))
 
 
