@@ -42,7 +42,7 @@
 - Similar to assignment 3
 - Find the stop information and bus status in json file
 - For buses that do not have stop and status information, output “N/A” in the fields
-- To achieve this output, using ‘try else’ inspired by “http://www.runoob.com/python/python-exceptions.html”
+- To achieve this output, using ‘try else’ (inspired by “http://www.runoob.com/python/python-exceptions.html”)
 - Use sys.argv to create inputs
 - Use fout function to create file input and output – csv file (inspired by https://pentangle.net/python/handbook/node35.html)
 - Replace API key and bus line to two input variables
