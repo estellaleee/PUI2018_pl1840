@@ -18,6 +18,8 @@ data = response.read().decode("utf-8")
 data = json.loads(data)
 
 bus=len(data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])
+print ("Bus Line: " + line)
+print ("Number of Active Buses:%s"%(bus))
 for n in range(bus):
 	latitude=data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][n]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
 	longitude=data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][n]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
