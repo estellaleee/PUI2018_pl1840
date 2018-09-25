@@ -28,12 +28,13 @@ for n in (range(0, bus)):
 	longitude=data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][n]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
 	try:
 		stop = data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][n]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['StopPointName']
-	except LookupError:
+	except:
 		stop = "N/A"
 	try:
 		status = data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'][n]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances']['PresentableDistance']
-	except LookupError:
+	except:
 		status = "N/A"
+	print(latitude,longitude, stop, status)
 	bus_line.write("%s,%s,%s,%s\n" %(latitude,longitude,stop,status))
 
 bus_line.close()
