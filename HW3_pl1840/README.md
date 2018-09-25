@@ -6,6 +6,7 @@
 - Take a screenshot of csv file, file history and HW3_pl1840 code history
 - Delete the csv file on terminal using the code provided
 - Then take a screenshot of HW3_pl1840 code history
+- I forgot to take a screenshot of my terminal to show that there is no test.csv in my HW3_pl1840 folder when I did this part of homework. HW1_A1.5 is the sceenshot I took after I completed the rest of the homework so the ls shows lots of work which is inconsistent with previous sceenshots, but there is no test.csv now.
 ![Alt text](HW3_A1.1.png)
 ![Alt text](HW3_A1.2.png)
 ![Alt text](HW3_A1.3.png)
