@@ -1,4 +1,4 @@
-**This is for PUI2018 Homework3**
+# PUI2018 Homework3.
 
 ![Alt text](HW3_A1.1.png)
 ![Alt text](HW3_A1.2.png)
