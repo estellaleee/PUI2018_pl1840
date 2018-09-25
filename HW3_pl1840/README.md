@@ -11,6 +11,7 @@
 ![Alt text](HW3_A1.2.png)
 ![Alt text](HW3_A1.3.png)
 ![Alt text](HW3_A1.4.png)
+![Alt text](HW3_A1.5.png)
 
 ## Assignment 2: Read CSV files with pandas and use NYC open data portal
 - I chose 2015-2017 Historical Daily Attendance by School as my data, and read it with pandas in ADRF
