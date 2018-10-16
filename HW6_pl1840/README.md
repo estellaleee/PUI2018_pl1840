@@ -4,7 +4,7 @@
 I reviewed Andrea Hassler's hypothesis test for the citibike data in HW4
 
 ### Assignment 2
-I completed the first two tests(t-test and Multiple regression), Haopeng Huang completed logistic regression.
+I completed the first t-test and Multiple regression, Haopeng Huang completed logistic regression.
 
 ### Assignment 3
 I followed the instruction to finish the chi-squared test
