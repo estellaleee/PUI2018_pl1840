@@ -11,3 +11,6 @@ I have reviewed your HW8 plot and here’s some viewpoints and suggestions.
 My suggestion are: specify what do you mean by the neighborhoods were rapidly gentrifying in that time period have the highest complaint counts; adjust the color bar to make the plot easily read and understandable. But overall, I think you already did a great job on this assignment. I was trying to do exactly the same plot as yours, but I don’t know how to find a shape file that contains zipcode, so I cannot merge the 311 data and shape file together, and I just gave up on this idea. I learned a lot from your notebook, thanks for the great job!
 
 Your classmate, Pengzi Li
+
+--------------------------------------------------------------------------------
+![Alt text](nl949_plot.png)
